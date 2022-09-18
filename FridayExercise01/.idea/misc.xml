@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FridayExercise01/app/src/main/res/layout/activity_add_animal.xml" value="0.16485507246376813" />
+        <entry key="..\:/FridayExercise01/app/src/main/res/layout/activity_card_animal.xml" value="0.2" />
+        <entry key="..\:/FridayExercise01/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_launcher_add.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_launcher_backicon.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_launcher_posteradd.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_launcher_staricon.xml" value="0.2535" />
+        <entry key="app/src/main/res/layout/activity_add_animal.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/activity_add_movie.xml" value="0.23717948717948717" />
+        <entry key="app/src/main/res/layout/activity_card_animal.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/activity_card_film.xml" value="0.3088851928710938" />
+        <entry key="app/src/main/res/layout/activity_edit_movie.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/activity_movie_detail.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.24791666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

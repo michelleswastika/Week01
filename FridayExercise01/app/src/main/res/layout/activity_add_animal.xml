@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    tools:context=".AddAnimalActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/beige"
+                    android:minHeight="?attr/actionBarSize"
+                    android:scrollbarSize="10dp"
+                    android:theme="?attr/actionBarTheme"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:navigationIcon="@drawable/ic_launcher_backicon"
+                    app:title="Tambah Hewan"
+                    app:titleTextColor="@color/black" />
+
+                <Button
+                    android:id="@+id/saveedit"
+                    android:layout_width="361dp"
+                    android:layout_height="58dp"
+                    android:layout_marginTop="90dp"
+                    android:text="save"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/beige"
+                    app:cornerRadius="100dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/inputusia" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputnama"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    app:boxBackgroundColor="@color/beige"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nama" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputjenis"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:boxBackgroundColor="@color/beige"
+                    app:layout_constraintEnd_toEndOf="@+id/inputnama"
+                    app:layout_constraintStart_toStartOf="@+id/inputnama"
+                    app:layout_constraintTop_toBottomOf="@+id/inputnama">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Jenis"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputusia"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:boxBackgroundColor="@color/beige"
+                    app:layout_constraintEnd_toEndOf="@+id/inputjenis"
+                    app:layout_constraintStart_toStartOf="@+id/inputjenis"
+                    app:layout_constraintTop_toBottomOf="@+id/inputjenis">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Usia"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="238dp"
+                    android:layout_height="145dp"
+                    android:layout_marginTop="70dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/desert" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
